@@ -3,208 +3,288 @@
     "id": "cholesterol-and-heart-disease",
     "topic": "how carnivore affects cholesterol and heart health",
     "desc": "Deep dive into how carnivore affects lipid profiles. LDL increase, HDL improvement, triglycerides drop.",
-    "keywords": ["carnivore diet cholesterol", "carnivore heart disease", "LDL on carnivore"],
-    "scheduled": "2026-05-27",
+    "keywords": [
+      "carnivore diet cholesterol",
+      "carnivore heart disease",
+      "LDL on carnivore"
+    ],
     "status": "pending"
   },
   {
     "id": "5-mistakes-beginners-make",
     "topic": "common mistakes beginners make on the carnivore diet",
     "desc": "Not eating enough fat, transitioning too fast, under-salting, fearing red meat, quitting during adaptation.",
-    "keywords": ["carnivore diet mistakes", "carnivore beginner tips", "carnivore diet problems"],
-    "scheduled": "2026-05-27",
+    "keywords": [
+      "carnivore diet mistakes",
+      "carnivore beginner tips",
+      "carnivore diet problems"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-on-a-budget",
     "topic": "how to eat carnivore without spending much money",
     "desc": "Cheap cuts, bulk buying, freezer strategies, local butchers, ground beef as a workhorse.",
-    "keywords": ["cheap carnivore diet", "carnivore on a budget", "affordable carnivore meals"],
-    "scheduled": "2026-05-28",
+    "keywords": [
+      "cheap carnivore diet",
+      "carnivore on a budget",
+      "affordable carnivore meals"
+    ],
     "status": "pending"
   },
   {
     "id": "why-nutritional-science-is-broken",
     "topic": "why standard nutritional science and dietary guidelines are flawed",
     "desc": "FFQ data problems, confounding variables, corporate funding, the lipid hypothesis debacle.",
-    "keywords": ["nutritional science flaws", "carnivore science", "dietary guidelines debunked"],
-    "scheduled": "2026-05-28",
+    "keywords": [
+      "nutritional science flaws",
+      "carnivore science",
+      "dietary guidelines debunked"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-cooking-basics",
     "topic": "basic cooking techniques for carnivore meals",
     "desc": "Pan-searing, cast iron care, sous vide, salt timing, resting meat, the perfect steak at home.",
-    "keywords": ["carnivore recipes", "how to cook carnivore", "carnivore meal prep"],
-    "scheduled": "2026-05-29",
+    "keywords": [
+      "carnivore recipes",
+      "how to cook carnivore",
+      "carnivore meal prep"
+    ],
     "status": "pending"
   },
   {
     "id": "keto-flu-survival-guide",
     "topic": "how to survive the keto flu when starting carnivore",
     "desc": "Symptom breakdown, electrolyte protocol, timeline, what helps vs what makes it worse.",
-    "keywords": ["keto flu", "carnivore flu symptoms", "adaptation phase carnivore"],
-    "scheduled": "2026-05-29",
+    "keywords": [
+      "keto flu",
+      "carnivore flu symptoms",
+      "adaptation phase carnivore"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-and-hormones",
     "topic": "how carnivore affects testosterone, estrogen, and thyroid",
     "desc": "Fat intake supports hormone production, cholesterol as precursor, stable blood sugar, women's cycles.",
-    "keywords": ["carnivore diet hormones", "carnivore testosterone", "carnivore thyroid"],
-    "scheduled": "2026-05-30",
+    "keywords": [
+      "carnivore diet hormones",
+      "carnivore testosterone",
+      "carnivore thyroid"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-before-and-after",
     "topic": "what real carnivore transformations look like at 30, 60, and 90 days",
     "desc": "Compilation of common transformation stories - weight loss, skin, gut, energy.",
-    "keywords": ["carnivore before after", "carnivore results 30 days", "carnivore transformation"],
-    "scheduled": "2026-05-30",
+    "keywords": [
+      "carnivore before after",
+      "carnivore results 30 days",
+      "carnivore transformation"
+    ],
     "status": "pending"
   },
   {
     "id": "eating-carnivore-at-restaurants",
     "topic": "how to stay carnivore when eating out or at social events",
     "desc": "Ordering strategies, fast food hacks, steakhouse protocol, handling dinner parties.",
-    "keywords": ["carnivore eating out", "carnivore restaurant tips", "carnivore social situations"],
-    "scheduled": "2026-05-31",
+    "keywords": [
+      "carnivore eating out",
+      "carnivore restaurant tips",
+      "carnivore social situations"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-and-exercise-performance",
     "topic": "how carnivore diet affects athletic performance and gym results",
     "desc": "Fat adaptation for endurance, strength training on zero carbs, what athletes report.",
-    "keywords": ["carnivore athlete", "carnivore gym performance", "carnivore bodybuilding"],
-    "scheduled": "2026-05-31",
+    "keywords": [
+      "carnivore athlete",
+      "carnivore gym performance",
+      "carnivore bodybuilding"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-vs-keto-vs-vegan",
     "topic": "honest comparison of carnivore, keto, and vegan diets",
     "desc": "Gut health, inflammation, nutrient density, sustainability, cost, and adherence comparison.",
-    "keywords": ["carnivore vs keto", "carnivore vs vegan", "best diet comparison"],
-    "scheduled": "2026-06-01",
+    "keywords": [
+      "carnivore vs keto",
+      "carnivore vs vegan",
+      "best diet comparison"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-diet-food-list",
     "topic": "complete food list for the carnivore diet",
     "desc": "Reference guide. All acceptable foods, what to prioritize, label-reading, sourcing.",
-    "keywords": ["carnivore diet food list", "what can you eat on carnivore", "carnivore grocery list"],
-    "scheduled": "2026-06-01",
+    "keywords": [
+      "carnivore diet food list",
+      "what can you eat on carnivore",
+      "carnivore grocery list"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-and-autoimmune-disease",
     "topic": "why carnivore helps autoimmune conditions like RA, Hashimotos, and lupus",
     "desc": "Molecular mimicry, leaky gut, antigen removal, specific conditions, community evidence.",
-    "keywords": ["carnivore autoimmune", "carnivore rheumatoid arthritis", "carnivore Hashimoto"],
-    "scheduled": "2026-06-02",
+    "keywords": [
+      "carnivore autoimmune",
+      "carnivore rheumatoid arthritis",
+      "carnivore Hashimoto"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-diet-for-weight-loss",
     "topic": "why people lose weight on carnivore without counting calories",
     "desc": "Appetite suppression, insulin normalization, water weight, fat adaptation.",
-    "keywords": ["carnivore weight loss", "carnivore diet results", "carnivore fat loss"],
-    "scheduled": "2026-06-02",
+    "keywords": [
+      "carnivore weight loss",
+      "carnivore diet results",
+      "carnivore fat loss"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-and-skin-health",
     "topic": "how carnivore clears acne, eczema, and psoriasis",
     "desc": "The gut-skin connection and why removing plants clears up chronic skin conditions.",
-    "keywords": ["carnivore skin", "carnivore acne", "carnivore eczema", "carnivore psoriasis"],
-    "scheduled": "2026-05-25",
+    "keywords": [
+      "carnivore skin",
+      "carnivore acne",
+      "carnivore eczema",
+      "carnivore psoriasis"
+    ],
     "status": "published"
   },
   {
     "id": "carnivore-diet-side-effects",
     "topic": "common carnivore side effects and how to fix them",
     "desc": "Diarrhea, constipation, cramps, fatigue, insomnia, cravings, oxalate dumping.",
-    "keywords": ["carnivore side effects", "carnivore diarrhea", "carnivore adaptation problems"],
-    "scheduled": "2026-06-03",
+    "keywords": [
+      "carnivore side effects",
+      "carnivore diarrhea",
+      "carnivore adaptation problems"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-meal-prep",
     "topic": "meal prep strategies for the carnivore diet",
     "desc": "Batch cooking ground beef, steak prep, egg bites, bone broth, freezing meals.",
-    "keywords": ["carnivore meal prep", "carnivore weekly meal plan", "carnivore batch cooking"],
-    "scheduled": "2026-06-04",
+    "keywords": [
+      "carnivore meal prep",
+      "carnivore weekly meal plan",
+      "carnivore batch cooking"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-diet-and-mental-health",
     "topic": "how carnivore affects brain fog, anxiety, and depression",
     "desc": "Stable blood sugar and mood, gut-brain axis, ketones for brain fuel.",
-    "keywords": ["carnivore mental health", "carnivore brain fog", "carnivore anxiety"],
-    "scheduled": "2026-06-04",
+    "keywords": [
+      "carnivore mental health",
+      "carnivore brain fog",
+      "carnivore anxiety"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-myths-debunked",
     "topic": "common carnivore diet myths and misconceptions",
     "desc": "Scurvy, colon cancer, heart disease, no fiber, expensive, boring, unsustainable.",
-    "keywords": ["carnivore myths", "carnivore debunked", "is carnivore diet healthy"],
-    "scheduled": "2026-06-05",
+    "keywords": [
+      "carnivore myths",
+      "carnivore debunked",
+      "is carnivore diet healthy"
+    ],
     "status": "pending"
   },
   {
     "id": "how-to-explain-carnivore-to-family",
     "topic": "how to talk about carnivore with skeptical doctors, family, and friends",
     "desc": "Scripts for common conversations, handling skepticism, what to say to your doctor.",
-    "keywords": ["how to explain carnivore", "carnivore to doctor", "carnivore family concerns"],
-    "scheduled": "2026-06-05",
+    "keywords": [
+      "how to explain carnivore",
+      "carnivore to doctor",
+      "carnivore family concerns"
+    ],
     "status": "pending"
   },
   {
     "id": "beef-tallow-and-animal-fats",
     "topic": "why animal fats like tallow, butter, and lard are healthy",
     "desc": "Seed oil damage, stable cooking fats, fat-soluble vitamins, CLA, traditional diets.",
-    "keywords": ["beef tallow healthy", "animal fats healthy", "seed oils vs animal fats"],
-    "scheduled": "2026-06-06",
+    "keywords": [
+      "beef tallow healthy",
+      "animal fats healthy",
+      "seed oils vs animal fats"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-for-gut-healing",
     "topic": "how carnivore heals IBS, SIBO, and leaky gut",
     "desc": "Elimination mechanism, fiber-free healing, gut lining repair, reintroduction guide.",
-    "keywords": ["carnivore gut health", "carnivore IBS", "carnivore SIBO", "carnivore leaky gut"],
-    "scheduled": "2026-06-06",
+    "keywords": [
+      "carnivore gut health",
+      "carnivore IBS",
+      "carnivore SIBO",
+      "carnivore leaky gut"
+    ],
     "status": "pending"
   },
   {
     "id": "is-carnivore-safe-long-term",
     "topic": "long-term safety of the carnivore diet",
     "desc": "Long-term data, traditional meat-based cultures, nutrient adequacy, longevity.",
-    "keywords": ["carnivore long term", "carnivore safety", "long term carnivore health"],
-    "scheduled": "2026-06-07",
+    "keywords": [
+      "carnivore long term",
+      "carnivore safety",
+      "long term carnivore health"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-and-diabetes",
     "topic": "how carnivore affects blood sugar and type 2 diabetes",
     "desc": "Blood sugar normalization, insulin reduction, medication adjustment, remission stories.",
-    "keywords": ["carnivore diabetes", "carnivore blood sugar", "carnivore type 2 diabetes"],
-    "scheduled": "2026-06-07",
+    "keywords": [
+      "carnivore diabetes",
+      "carnivore blood sugar",
+      "carnivore type 2 diabetes"
+    ],
     "status": "pending"
   },
   {
     "id": "carnivore-travel-guide",
     "topic": "how to stay carnivore while traveling",
     "desc": "Airport food, packing meat, hotel cooking, finding butchers abroad.",
-    "keywords": ["carnivore travel", "carnivore airport food", "carnivore road trip"],
-    "scheduled": "2026-06-08",
+    "keywords": [
+      "carnivore travel",
+      "carnivore airport food",
+      "carnivore road trip"
+    ],
     "status": "pending"
   },
   {
     "id": "raw-dairy-on-carnivore",
     "topic": "whether raw dairy belongs on a carnivore diet",
     "desc": "Lactose content, A1 vs A2, raw vs pasteurized, who tolerates dairy, what to try.",
-    "keywords": ["raw dairy carnivore", "carnivore milk", "raw milk diet"],
-    "scheduled": "2026-06-08",
+    "keywords": [
+      "raw dairy carnivore",
+      "carnivore milk",
+      "raw milk diet"
+    ],
     "status": "pending"
   }
 ]
