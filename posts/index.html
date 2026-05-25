@@ -28,7 +28,10 @@
   <script>
   (function(){
     fetch('index.json').then(function(r){ return r.json(); }).then(function(posts){
-      posts.sort(function(a,b){ return new Date(b.date) - new Date(a.date); });
+      posts.sort(function(a,b){
+        var d = new Date(b.date) - new Date(a.date);
+        return d !== 0 ? d : posts.indexOf(b) - posts.indexOf(a);
+      });
       var html = '';
       for(var i=0; i<posts.length; i++){
         var p = posts[i];

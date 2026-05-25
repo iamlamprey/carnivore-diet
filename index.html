@@ -49,7 +49,10 @@
     (function(){
       var list = document.getElementById('post-list');
       fetch('posts/index.json').then(function(r){ return r.json(); }).then(function(posts){
-        posts.sort(function(a,b){ return new Date(b.date) - new Date(a.date); });
+      posts.sort(function(a,b){
+        var d = new Date(b.date) - new Date(a.date);
+        return d !== 0 ? d : posts.indexOf(b) - posts.indexOf(a);
+      });
         var max = 5;
         var html = '';
         for(var i=0; i<posts.length && i<max; i++){
