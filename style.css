@@ -90,6 +90,29 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   color: var(--accent-hover);
 }
 
+/* Prominent Voices cards */
+.voice-list { display: flex; flex-direction: column; gap: 0.75rem; margin: 1rem 0; }
+
+.voice-card {
+  display: flex; align-items: flex-start; gap: 1rem;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 1rem 1.25rem;
+  transition: border-color 0.15s, background 0.15s;
+}
+.voice-card:hover { border-color: var(--accent); background: var(--elevated); }
+
+.voice-card .avatar {
+  flex-shrink: 0; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--elevated); display: flex; align-items: center;
+  justify-content: center; font-size: 1.1rem; margin-top: 0.15rem;
+}
+
+.voice-card .info { flex: 1; min-width: 0; }
+.voice-card .info .name { font-weight: 600; font-size: 0.95rem; color: var(--text); }
+.voice-card .info .name a { color: var(--accent); }
+.voice-card .info .name a:hover { color: var(--accent-hover); }
+.voice-card .info .desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.5; margin-top: 0.15rem; }
+
 /* Post list */
 .post-list { list-style: none; }
 
