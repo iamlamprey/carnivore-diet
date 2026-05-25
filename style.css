@@ -144,7 +144,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.35rem 0.45rem;
+  padding: 0.35rem 0.45rem 0.35rem 0;
   border-radius: 5px;
   font-size: 0.72rem;
   font-weight: 500;
@@ -158,7 +158,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   color: var(--accent-hover);
   text-decoration: none;
 }
-.floating-sidebar a .emoji { font-size: 0.85rem; }
+.floating-sidebar a .emoji { font-size: 0.85rem; display: inline-block; width: 1.4em; text-align: center; flex-shrink: 0; }
 
 /* Post list */
 .post-list { list-style: none; }
