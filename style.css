@@ -260,18 +260,17 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .resources { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
 
 .resource-card {
+  display: block;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1rem 1.25rem;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, background 0.15s;
+  text-decoration: none;
+  color: inherit;
 }
-
 .resource-card:hover { border-color: var(--accent); background: var(--elevated); }
-
-.resource-card h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.25rem; }
-.resource-card h3 a { color: var(--text); }
-.resource-card h3 a:hover { color: var(--accent); text-decoration: none; }
+.resource-card h3 { font-size: 0.95rem; font-weight: 600; color: var(--accent); margin-bottom: 0.25rem; }
 .resource-card p { font-size: 0.8rem; color: var(--text-muted); line-height: 1.4; }
 
 /* Hub page — topic cards */
