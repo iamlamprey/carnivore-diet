@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curated Carnivore</title>
+    <link>https://nytemairqt.github.io/carnivore-diet/</link>
+    <description>Carnivore Diet resources and summaries</description>
+    <language>en-us</language>
+    <atom:link href="https://nytemairqt.github.io/carnivore-diet/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Pipeline Test Successful</title>
+    <link>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-test-pipeline.html</link>
+    <guid>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-test-pipeline.html</guid>
+    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    <description>This article was generated automatically by the NEATContent cron job to verify the full automation pipeline.</description>
+  </item>
+  <item>
+    <title>How Carnivore Diet Healed Severe Psoriasis</title>
+    <link>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-psoriasis-healing.html</link>
+    <guid>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-psoriasis-healing.html</guid>
+    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    <description>After 30 years of battling psoriasis covering 50% of his body, Phillip found relief through the carnivore diet. The gut-skin connection explained.</description>
+  </item>
+  <item>
+    <title>My 30-Day Carnivore Diet Experience</title>
+    <link>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-30-day-experience.html</link>
+    <guid>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-30-day-experience.html</guid>
+    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    <description>Real results after one month on an all-meat diet: gut issues resolved, skin cleared, energy stabilized. A detailed week-by-week breakdown.</description>
+  </item>
+  <item>
+    <title>What Is the Carnivore Diet?</title>
+    <link>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-what-is-carnivore.html</link>
+    <guid>https://nytemairqt.github.io/carnivore-diet/posts/2026-05-25-what-is-carnivore.html</guid>
+    <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
+    <description>A clear, no-nonsense overview of the carnivore diet — what to eat, the science behind it, and who it might help.</description>
+  </item>
+  </channel>
+</rss>
