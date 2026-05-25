@@ -32,11 +32,11 @@
       var html = '';
       for(var i=0; i<posts.length; i++){
         var p = posts[i];
-        html += '<li class="post-item">'
+        html += '<a href="' + p.url + '" class="post-item">'
              +   '<p class="date">' + p.date + '</p>'
-             +   '<h2><a href="' + p.url + '">' + p.title + '</a></h2>'
+             +   '<h2>' + p.title + '</h2>'
              +   '<p class="excerpt">' + p.excerpt + '</p>'
-             + '</li>';
+             + '</a>';
       }
       document.getElementById('post-list').innerHTML = html;
     }).catch(function(){

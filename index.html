@@ -39,9 +39,9 @@
     <!-- Latest posts -->
     <section>
       <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;color:#666;">Latest Posts</h2>
-      <ul class="post-list" id="post-list">
-        <li style="color:#666;font-size:0.9rem;padding:1rem;">Loading...</li>
-      </ul>
+    <ul class="post-list" id="post-list">
+      <li style="color:#666;font-size:0.9rem;padding:1rem;list-style:none;">Loading...</li>
+    </ul>
       <p style="margin-top:0.5rem;font-size:0.85rem;"><a href="posts/" id="archive-link">View all posts &rarr;</a></p>
     </section>
 
@@ -54,11 +54,11 @@
         var html = '';
         for(var i=0; i<posts.length && i<max; i++){
           var p = posts[i];
-          html += '<li class="post-item">'
+          html += '<a href="' + p.url + '" class="post-item">'
                +   '<p class="date">' + p.date + '</p>'
-               +   '<h2><a href="' + p.url + '">' + p.title + '</a></h2>'
+               +   '<h2>' + p.title + '</h2>'
                +   '<p class="excerpt">' + p.excerpt + '</p>'
-               + '</li>';
+               + '</a>';
         }
         list.innerHTML = html;
         var al = document.getElementById('archive-link');
@@ -120,7 +120,6 @@
 
     <footer class="site-footer">
       <p><strong>Not medical advice.</strong> Always consult your healthcare provider before making dietary changes.</p>
-      <p style="margin-top:0.5rem;"><a href="rss.xml">RSS Feed</a></p>
     </footer>
   </div>
 </body>
