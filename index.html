@@ -10,6 +10,15 @@
   <meta name='impact-site-verification' value='ba608ec7-3d30-4393-987b-85eb76be87b2'>
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6905449c381b42b1ba1dec2569f2fa42"}'></script><!-- End Cloudflare Web Analytics -->
   <link rel="canonical" href="https://curated-carnivore.com/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Curated Carnivore — Evidence-Based Carnivore Diet Guides &amp; Resources">
+  <meta property="og:description" content="Curated information for healing through a carnivore diet. Gut health, skin, energy, mental clarity — 55+ practical guides and community-sourced resources.">
+  <meta property="og:url" content="https://curated-carnivore.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://curated-carnivore.com/assets/icon.jpg">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta name="twitter:card" content="summary">
 </head>
 <body>
     <div class="floating-sidebar">
@@ -42,37 +51,44 @@
     <section>
       <h2 style="font-size:1rem;font-weight:600;margin-bottom:1rem;text-transform:uppercase;letter-spacing:0.05em;color:#666;">Latest Posts</h2>
     <ul class="post-list" id="post-list">
-      <li style="color:#666;font-size:0.9rem;padding:1rem;list-style:none;">Loading...</li>
+      <a href="posts/2026-07-15-funny-carnivore-interactions.html" class="post-item">
+        <p class="date">2026-07-15</p>
+        <h2>Funny Interactions on the Carnivore Diet: When Strangers Think Your Food Is for the Dog</h2>
+        <p class="excerpt">A carnivore ordered plain beef patties at McDonald's. The drive-thru employee leaned out the window and asked: 'Are these for your dog?' The funny side of eating nothing but meat in public.</p>
+      </a>
+      <a href="posts/2026-06-19-carnivore-pollen-allergy.html" class="post-item">
+        <p class="date">2026-06-19</p>
+        <h2>Can the Carnivore Diet Help With Pollen Allergies? The Dairy Connection</h2>
+        <p class="excerpt">A Reddit user who fixed everything with keto except seasonal allergies wondered if carnivore could help. The answer might be about dairy, not plants.</p>
+      </a>
+      <a href="posts/2026-06-18-carnivore-lmhr-cholesterol.html" class="post-item">
+        <p class="date">2026-06-18</p>
+        <h2>3 Years on Carnivore, Sky-High LDL, and a CAC Score of 0</h2>
+        <p class="excerpt">After 3 years on carnivore, one man with the LMHR phenotype shares his lipid panel, a CAC score of 0, and the unresolved question of whether sky-high LDL matters when every other marker is perfect.</p>
+      </a>
+      <a href="posts/2026-06-17-first-3-days-carnivore-emotional.html" class="post-item">
+        <p class="date">2026-06-17</p>
+        <h2>The First 3 Days of Carnivore Are Emotionally Brutal - Here's Why That's Normal</h2>
+        <p class="excerpt">One woman's honest account of the first 3 days on carnivore - chocolate withdrawal, coffee rituals, and the emotional side of giving up comfort foods.</p>
+      </a>
+      <a href="posts/2026-06-13-regular-vs-wagyu-ground-beef.html" class="post-item">
+        <p class="date">2026-06-13</p>
+        <h2>Regular Ground Beef vs Wagyu: When to Splurge and When to Save on Carnivore</h2>
+        <p class="excerpt">A Reddit user tried wagyu ground beef next to regular 73/27 and could barely tell the difference. Here's when expensive ground meat is worth it and when it's not.</p>
+      </a>
     </ul>
-      <p style="margin-top:0.5rem;font-size:0.85rem;"><a href="posts/" id="archive-link">View all posts &rarr;</a></p>
+      <p style="margin-top:0.5rem;font-size:0.85rem;"><a href="posts/" id="archive-link">View all 55 posts &rarr;</a></p>
     </section>
 
     <script>
+    /* Progressive enhancement: update post count if JSON has more posts than hardcoded */
     (function(){
-      var list = document.getElementById('post-list');
+      var al = document.getElementById('archive-link');
       fetch('posts/index.json').then(function(r){ return r.json(); }).then(function(posts){
-      posts.sort(function(a,b){
-        var d = new Date(b.date) - new Date(a.date);
-        return d !== 0 ? d : posts.indexOf(b) - posts.indexOf(a);
-      });
-        var max = 5;
-        var html = '';
-        for(var i=0; i<posts.length && i<max; i++){
-          var p = posts[i];
-          html += '<a href="posts/' + p.url + '" class="post-item">'
-               +   '<p class="date">' + p.date + '</p>'
-               +   '<h2>' + p.title + '</h2>'
-               +   '<p class="excerpt">' + p.excerpt + '</p>'
-               + '</a>';
-        }
-        list.innerHTML = html;
-        var al = document.getElementById('archive-link');
-        if(posts.length > max){
+        if(posts.length > 5){
           al.textContent = 'View all ' + posts.length + ' posts \u2192';
         }
-      }).catch(function(){
-        list.innerHTML = '<li style="color:#666;font-size:0.9rem;padding:1rem;">Could not load posts.</li>';
-      });
+      }).catch(function(){ /* keep hardcoded fallback */ });
     })();
     </script>
     <!-- About -->
